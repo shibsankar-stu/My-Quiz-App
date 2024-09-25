@@ -6,10 +6,10 @@ function Question5({score , setScore}){
             setScore(score+=1)
             console.log(score)
                 document.getElementById("result").innerHTML = ` Result: ${score}`;
-                document.getElementById("output").innerHTML = `Correct Answare
+                document.getElementById("output").innerHTML = `Correct Answare.
                  Your Total Score is ${score}/5`;
         }else{
-            document.getElementById("output").innerHTML = `Wrong Answare`
+            document.getElementById("output").innerHTML = `Wrong Answare. Your Total Score is ${score}/5`
             document.getElementById("output").style.color = "red"
             
         }
