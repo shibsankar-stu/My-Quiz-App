@@ -1,0 +1,84 @@
+#boxContainer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+button{
+    width: 100px;
+    height: 34px;
+    margin-top: 20px;
+    background-color: rgb(104, 255, 137);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: greenyellow;
+}
+#Question{
+    display: flex;
+    flex-direction: column;
+    
+}
+#Question2{
+    display: flex;
+    flex-direction: column;
+}
+#Question3{
+    display: flex;
+    flex-direction: column;
+}
+#Question4{
+    display: flex;
+    flex-direction: column;
+}
+#Question5{
+    display: flex;
+    flex-direction: column;
+}
+#next{
+    width: 100px;
+    height: 34px;
+    background-color: rgb(0, 83, 185);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-left: 20px;
+}
+#next:hover{
+    background-color: rgb(103, 103, 255);
+}
+#output{
+    color: rgb(0, 15, 177);
+}
+#question1Container{
+   display: flex;
+   flex-direction: column;
+}
+#question2Container{
+    display: none;
+    flex-direction: column;
+
+}
+#question2Container{
+    display: none;
+    flex-direction: column;
+}
+#question3Container{
+    display: none;
+    flex-direction: column;
+}
+#question4Container{
+    display: none;
+    flex-direction: column;
+}
+#question5Container{
+    display: none;
+    flex-direction: column;
+}
