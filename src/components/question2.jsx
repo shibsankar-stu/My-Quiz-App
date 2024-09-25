@@ -2,7 +2,7 @@ function Question2({score , setScore}){
     function getValue(){
         
         let x = document.getElementById("Question2");
-        if(x.elements["Question"].value == "Nitrogen" ){
+        if(x.elements["Question"].value == "Carbon dioxide" ){
             setScore(score+= 1)
             document.getElementById("result").innerHTML = ` Result: ${score}`;
             document.getElementById("output").innerHTML = `Correct Answare`;
