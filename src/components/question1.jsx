@@ -6,11 +6,11 @@ function Question1({score , setScore}){
         if(x.elements["Question"].value == "Baikal" ){
             setScore(score+= 1)
             document.getElementById("result").innerHTML = ` Result: ${score}`;
-            document.getElementById("output").innerHTML = `Correct Answare`;
+            document.getElementById("output").innerHTML = `Correct Answer`;
             nextQuestion2()
             
         }else{
-            document.getElementById("output").innerHTML = `Wrong Answare`
+            document.getElementById("output").innerHTML = `Wrong Answer`
             document.getElementById("output").style.color = "red";
             nextQuestion2()
             

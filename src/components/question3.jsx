@@ -6,7 +6,7 @@ function Question3({score , setScore}){
             setScore(score+=1)
             console.log(score)
             document.getElementById("result").innerHTML = ` Result: ${score}`;
-            document.getElementById("output").innerHTML = `Correct Answare`;
+            document.getElementById("output").innerHTML = `Correct Answer`;
             document.getElementById('question1Container').style.display = "none";
             document.getElementById('question2Container').style.display = "none";
            document.getElementById("question3Container").style.display = "none";
@@ -14,7 +14,7 @@ function Question3({score , setScore}){
         //    document.getElementById("output").innerHTML = "";
             
         }else{
-            document.getElementById("output").innerHTML = `Wrong Answare`
+            document.getElementById("output").innerHTML = `Wrong Answer`
             document.getElementById("output").style.color = "red";
             document.getElementById('question1Container').style.display = "none";
             document.getElementById('question2Container').style.display = "none";

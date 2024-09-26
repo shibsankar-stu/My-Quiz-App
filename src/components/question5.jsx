@@ -6,10 +6,10 @@ function Question5({score , setScore}){
             setScore(score+=1)
             console.log(score)
                 document.getElementById("result").innerHTML = ` Result: ${score}`;
-                document.getElementById("output").innerHTML = `Correct Answare.
+                document.getElementById("output").innerHTML = `Correct Answer.
                  Your Total Score is ${score}/5`;
         }else{
-            document.getElementById("output").innerHTML = `Wrong Answare. Your Total Score is ${score}/5`
+            document.getElementById("output").innerHTML = `Wrong Answer. Your Total Score is ${score}/5`
             document.getElementById("output").style.color = "red"
             
         }
@@ -19,7 +19,7 @@ function Question5({score , setScore}){
     }
     
     return (<div id="question5Container">
-        <h2>Question 5</h2>
+        <h2>Question 5</h2>                                                                                                                                             
         <h3> The green planet in the solar system is?</h3>
         <form id="Question5">
             <label  > <input type="radio" name="Question" id="Caspian" 
